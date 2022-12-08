@@ -1,0 +1,15 @@
+name: gym
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch=1.13.0
+  - torchvision=0.14.0
+  - pip
+  - ipykernel
+  - pillow=9.2.0
+  - matplotlib
+  - pip:
+      - gymnasium[box2d]==0.26.3
